@@ -14,16 +14,14 @@ form / page.
 
 FEATURES
 --
-* Pluggable
-* Configurable
-*  Integration with minimum effort.
-* Can be integrated so as to have minimum impact on page load time(s).
+* Pluggable / Configurable
+* Lightweight
+* Field Targeting
 * Tracking of User Behaviour
  * Fields visited by the user.
  * Order of field traversal.
  * Time spent on each field.
  * Values filled in each field.
- * Target certain fields for tracking.
 
 
 USAGE

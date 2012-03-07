@@ -2,25 +2,16 @@ var tnm = function() {
     this.resLogData="";
     this.curId = 'default';
 
-    this.tnmLogPath;//= "saveLog.php";
-    this.tnmLogArray;//= {"value":true, "error":false, "links":false};
+    this.tnmLogPath;//= "savelog.php";
+    this.tnmLogArray = {"value":true, "error":false, "links":false};
     this.tnmLogFields={};
+    /*= { "myform":[ "email", "sex" ],
+          "form2":[ "mno", "Number", "city", "education" ]
+      };*/
     this.tnmPageId="Page Id Not Specified";
     var errorMessage= new Array();
     var ajaxErrors = new Array();
     var pageStartTS = new Date().getTime(); 
-    /*= { 
-      "myform":[
-      "email",
-      "sex"
-      ],
-      "form2":[
-      "mno",
-      "Number",
-      "city",
-      "education"
-      ]
-      };*/
 
 
     this.makeResLog = function() {

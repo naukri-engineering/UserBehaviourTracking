@@ -34,6 +34,11 @@ USAGE
 
         var objtnm = new tnm();
 
+* After the object is created, add tnm methods to appropriate window events
+       
+         window.onload = function () {objtnm.init();}
+         window.onunload = function() { objtnm.LogCatch.call(objtnm);}
+
 * The plugin have some configuration variables, which can be specified in following manner:
   * tnmLogPath: Path to the script which would log the data captured by the plugin.
   

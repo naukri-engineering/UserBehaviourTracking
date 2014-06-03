@@ -1,4 +1,4 @@
-tnm.js
+Time & Motion (tnm.js)
 ==
 
 1. A plugin that solves undermentioned purposes:

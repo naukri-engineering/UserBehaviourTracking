@@ -1,4 +1,4 @@
-Time & Motion (tnm.js)
+Time & Motion (tnm.js) - User Behaviour Tracking
 ==
 
 1. A plugin that solves undermentioned purposes:
